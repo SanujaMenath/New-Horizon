@@ -7,12 +7,12 @@ const About = () => {
       <div className="max-w-7xl mx-auto px-5">
         <h2 className="text-4xl font-bold text-center mb-8">The Company</h2>
         <p className="text-lg leading-relaxed mb-8 text-center">
-          Welcome to Bright Achievers Migration Consultant, your trusted partner in educational migration services.
+          Welcome to New Horizon Migration Consultant, your trusted partner in educational migration services.
         </p>
         <div className="flex items-start space-x-10">
           <div className="w-1 bg-blue-500"></div>
-          <p className="text-lg">
-            At Bright Achievers, we simplify your international education journey with services like visa application assistance, school and university selection, and scholarship opportunities.
+          <p className="text-lg text-center">
+            At New Horizon, we simplify your international education journey with services like visa application assistance, school and university selection, and scholarship opportunities.
           </p>
         </div>
         <div className="text-center mt-10">

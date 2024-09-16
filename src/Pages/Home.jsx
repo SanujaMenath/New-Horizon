@@ -5,6 +5,7 @@ import About from '../Components/About';
 import Services from '../Components/Services';
 import Footer from '../Components/Footer';
 
+
 const Home = () => {
   return (
     <>
@@ -12,7 +13,7 @@ const Home = () => {
       <Banner />
       <About />
       <Services />
-      <Footer />
+      <Footer/>
     </>
   );
 };

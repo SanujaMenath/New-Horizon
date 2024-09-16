@@ -1,13 +1,14 @@
-import React from 'react';
+import React from 'react'
 import '../index.css';
 
-const Footer = () => {
+function Footer() {
   return (
-    <footer className="bg-footer-blue text-white py-10">
-      <div className="max-w-7xl mx-auto px-5 grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div>
+       <footer className='bg-footer-blue text-black pt-10 bg-slate-600'>
+      <div className='max-w-7xl mx-auto px-5 grid grid-cols-1 md:grid-cols-3 gap-8'>
         <div>
-          <h1 className="text-xl font-bold mb-4">Bright Achievers</h1>
-          <p>At Bright Achievers, we are dedicated to simplifying your international education journey.</p>
+          <h1 className="text-xl font-bold mb-4">New Horizon</h1>
+          <p>At New Horizon, we are dedicated to simplifying your international education journey.</p>
         </div>
         <div>
           <h1 className="text-xl font-bold mb-4">Contact Info</h1>
@@ -20,18 +21,17 @@ const Footer = () => {
           <nav className="flex flex-col space-y-2">
             <a href="/">Home</a>
             <a href="/about_us">About Us</a>
-            <a href="/collegevisa">College Visa</a>
-            <a href="/schoolingvisa">Schooling Visa</a>
             <a href="/blogs">Blogs</a>
             <a href="/contact_us">Contact Us</a>
           </nav>
         </div>
       </div>
-      <div className="text-center mt-8">
+      <div className="text-white text-center mt-8 bg-slate-700 py-3">
         <p>© 2024 | Powered By Apexify Technologies</p>
       </div>
     </footer>
-  );
-};
+    </div>
+  )
+}
 
-export default Footer;
+export default Footer
