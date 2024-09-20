@@ -7,7 +7,7 @@ const Header = () => {
     <header className="fixed w-full top-0 z-10 bg-customBlue grid grid-cols-5 items-center ">
     
     <div className="col-span-1 flex justify-center">
-      <img className="h-12" src="/images/logo.png" alt="New Horizon Logo" />
+      <img className="max-h-32 w-72" src="/assets/logo.jpg" alt="Logo" />
     </div>
   
    

@@ -4,10 +4,10 @@ import '../index.css';
 function Footer() {
   return (
     <div>
-       <footer className='bg-customBlue text-white pt-10 '>
+       <footer className='bg-customBlue text-white pt-8 '>
       <div>
         <div>
-          <h1 className="text-lg font-bold mb-4 text-center">ABC Migration Consultant Group</h1>
+          <h1 className="text-lg font-bold mb-3 text-center">ABC Migration Consultant Group</h1>
          <p className='text-center text-cyan-600'>Explore your future with confidence ABC Migration Consultant Group is with you every step of the way</p>
         </div>
         
@@ -15,7 +15,7 @@ function Footer() {
          
         </div>
       </div>
-      <div className="bg-customBlue text-white text-center mt-8  py-3">
+      <div className="bg-customBlue text-white text-center mt-6  py-3">
         <p>© 2024 | powered by ABC group </p>
       </div>
     </footer>
