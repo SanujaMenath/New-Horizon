@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       colors: {
         customBlue: 'rgba(0,15,44,255)',
+        navy: '#0A2540',
       },
     },
   },
